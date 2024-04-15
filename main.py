@@ -69,7 +69,7 @@ elif selected == "Prediction":
     with row0_1:
         st.subheader('Pengaturan Variabel')
     with row1_1:
-        option = st.selectbox("Pilih Variabel Dependent", ('Stok_1', 'Stok_2', 'Stok_3'))
+        option = st.selectbox("Pilih Variabel Dependent", ('Stok_3'))
     with row3_0:
         button = st.button('Predict')
         if button:
