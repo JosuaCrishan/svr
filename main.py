@@ -6,7 +6,7 @@ import plotly.express as px
 import joblib
 from sklearn import metrics
 
-st.set_page_config(page_title="Diabetes Prediction", layout="wide")
+st.set_page_config(page_title="Prediksi Penjualan Barang Almey Petshop", layout="wide")
 # Create menu
 selected = option_menu(
     menu_title=None,
